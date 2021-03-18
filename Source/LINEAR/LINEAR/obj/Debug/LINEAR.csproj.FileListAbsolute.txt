@@ -69,3 +69,10 @@ D:\Repos\LINEAR\Source\LINEAR\bin\Debug\UnityEngine.PerformanceReportingModule.d
 D:\Repos\LINEAR\Source\LINEAR\bin\Debug\TDx.TDxInput.dll
 D:\Repos\LINEAR\Source\LINEAR\bin\Debug\KSPAssets.XmlSerializers.dll
 D:\Repos\LINEAR\Source\LINEAR\obj\Debug\LINEAR.csproj.CopyComplete
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\bin\Debug\LINEAR.dll
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\bin\Debug\LINEAR.pdb
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\obj\Debug\LINEAR.csproj.CoreCompileInputs.cache
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\obj\Debug\LINEAR.csproj.CopyComplete
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\obj\Debug\LINEAR.dll
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\obj\Debug\LINEAR.pdb
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\obj\Debug\LINEAR.csprojAssemblyReference.cache
