@@ -45,14 +45,24 @@
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\KSP\Kerbal Space Program 1.10.1 Dbg\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\..\KSP\Kerbal Space Program 1.10.1 Dbg\KSP_x64_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\..\..\KSP\Kerbal Space Program 1.10.1 Dbg\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\..\..\KSP\Kerbal Space Program 1.10.1 Dbg\KSP_x64_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\KSP\Kerbal Space Program 1.10.1 Dbg\KSP_x64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lib.cs" />
     <Compile Include="LINEARScenario.cs" />
     <Compile Include="AbstractLinearPartModule.cs" />
+    <Compile Include="LINEARWindow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

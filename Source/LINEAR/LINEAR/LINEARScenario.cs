@@ -12,9 +12,26 @@ namespace LINEAR
     {
         private List<ManagedVessel> managedVessels = new List<ManagedVessel>();
 
+        #region Lifecycle
+
         public LINEARScenario()
         {
         }
+
+        public override void OnLoad(ConfigNode node)
+        {
+            if (HighLogic.LoadedSceneIsFlight)
+            {
+                Lib.CreateLinearWindowToggleToolarButton();
+            }
+        }
+
+        private void OnDestroy()
+        {
+            Lib.TryRemoveLinearWindowToggleToolabrButton();
+        }
+
+        #endregion
 
         #region Subdata Classes
 

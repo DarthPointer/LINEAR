@@ -76,3 +76,8 @@ D:\Repos\LINEAR\Source\LINEAR\LINEAR\obj\Debug\LINEAR.csproj.CopyComplete
 D:\Repos\LINEAR\Source\LINEAR\LINEAR\obj\Debug\LINEAR.dll
 D:\Repos\LINEAR\Source\LINEAR\LINEAR\obj\Debug\LINEAR.pdb
 D:\Repos\LINEAR\Source\LINEAR\LINEAR\obj\Debug\LINEAR.csprojAssemblyReference.cache
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\bin\Debug\UnityEngine.AnimationModule.dll
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\bin\Debug\UnityEngine.IMGUIModule.dll
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\Repos\LINEAR\Source\LINEAR\LINEAR\bin\Debug\UnityEngine.SharedInternalsModule.dll

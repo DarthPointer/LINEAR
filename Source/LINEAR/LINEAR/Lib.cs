@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using KSP.UI.Screens;
 using UnityEngine;
 
 namespace LINEAR
@@ -28,5 +24,30 @@ namespace LINEAR
         {
             return TimeWarp.WarpMode == TimeWarp.Modes.HIGH && TimeWarp.CurrentRate != 1;
         }
+
+        #region Toolbar Button
+
+        private static ApplicationLauncherButton linearWindowToggleToolbarButton = null;
+
+        public static void CreateLinearWindowToggleToolarButton()
+        {
+            Texture2D texture = new Texture2D(64, 64, TextureFormat.ARGB32, false);             // Hardcode = bad. Sry.
+            ImageConversion.LoadImage(texture, System.IO.File.ReadAllBytes("GameData/LINEAR/Resources/y=kx+b.png"));
+
+            linearWindowToggleToolbarButton = ApplicationLauncher.Instance.AddModApplication(null, null, null, null, null, null,
+                    ApplicationLauncher.AppScenes.FLIGHT, texture);
+
+            linearWindowToggleToolbarButton.onLeftClick = () => LINEARWindow.show = !LINEARWindow.show;
+        }
+
+        public static void TryRemoveLinearWindowToggleToolabrButton()
+        {
+            if (linearWindowToggleToolbarButton != null)
+            {
+                ApplicationLauncher.Instance.RemoveModApplication(linearWindowToggleToolbarButton);
+            }
+        }
+
+        #endregion
     }
 }
